@@ -18,3 +18,8 @@ person = {
 }   
 
 gravity = 9.81
+
+import random
+def shuffle_list(list1):
+    random.shuffle(list1)
+    return list1
